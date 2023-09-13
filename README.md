@@ -49,3 +49,6 @@ Availabe pin as a pass through to connect a step pad
 D19
 D19 will trigger D21 ONLY as well as allowing D21 to accept GET URL triggeres
 
+GET URL triggers:  
+triggerD4, triggerD13, triggerD14, triggerRX2, triggerTX2, triggerD18, triggerD19, triggerD21, triggerD22, triggerD23, triggerD25, triggerD26, triggerD27, triggerD32, triggerD33
+
