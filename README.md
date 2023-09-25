@@ -14,9 +14,10 @@ In Adruino IDE go to File > Preferences: Go to Addition Boards Manager URL and p
 Click OK.
 
 This will add the ESP32 DEVKIT V1 to your Arduino IDE options.
-Go to Tools > Board > Board Manager
-Search ESP32
-Install esp32 by Espressif Systems
+Go to Tools > Board > Board Manager.
+
+Search ESP32.
+Install esp32 by Espressif Systems.
 
 This will install the USB driver to connect the esp32 to windows.
 
@@ -28,7 +29,7 @@ Right click on silabser.inf and click install.
 
 This will tell Arduino what board and how to connect it.
 
-Go to Tools > Board and select DOIT ESP32 DEVKIT V1.
+Go to Tools > Board > esp32 and select DOIT ESP32 DEVKIT V1.
 Connect your ESP32 DEVKIT V1 with a USB micro cable to your computer.
 Go to Tools and choose Com3 (or 4 or whatever works here).
 
