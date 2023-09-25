@@ -25,10 +25,11 @@ Go to Tools > Board and select DOIT ESP32 DEVKIT V1
 Go to Tools and choose Com3 (or 4 or whatever works here)
 Connect your ESP32 DEVKIT V1 with a USB micro cable to your computer
 
-// Add the library for the web server, ESPAsyncWebServer
-Go to this link and download this zip https://github.com/me-no-dev/ESPAsyncWebServer/archive/master.zip
-In Arduino IDE go to Sketch > Include Library > Add .zip Library
-Choose the .zip file you just downloaded. There is no need for an unzipping program
+//Add the libraries for the web server. Go to these links and download the zips: 
+https://github.com/me-no-dev/ESPAsyncWebServer/archive/master.zip 
+https://github.com/me-no-dev/AsyncTCP/archive/master.zip
+In Arduino IDE go to Sketch - Include Library - Add .zip Library Choose the .zip files you just downloaded. There is no need for an unzipping program.
+
 
 Copy and paste the code from MultiPropControllerv1.txt into Arduino IDE 
 Change your WIFI name and password
