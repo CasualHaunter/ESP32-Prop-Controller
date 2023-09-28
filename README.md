@@ -7,19 +7,21 @@ Install Arduino IDE
 
 https://www.arduino.cc/en/software
 
-This will add the ESP32 capability to Arduino IDE
+The following will add the ESP32 capability to Arduino IDE.
 
-In Adruino IDE go to File > Preferences: Go to Addition Boards Manager URL and paste https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+In Adruino IDE go to File > Preferences: Go to Addition Boards Manager URL and paste the following URL.
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 
 Click OK.
 
-This will add the ESP32 DEVKIT V1 to your Arduino IDE options.
+The following will add the ESP32 DEVKIT V1 to your Arduino IDE options.
+
 Go to Tools > Board > Board Manager.
 
-Search ESP32.
-Install esp32 by Espressif Systems.
+Search ESP32. Install esp32 by Espressif Systems.
 
-This will install the USB driver to connect the esp32 to windows.
+The following will install the USB driver to connect the esp32 to windows.
 
 Go to https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads
 
@@ -27,7 +29,7 @@ Download CP210x Universal Windows Driver.
 Unzip it and open up the folder.
 Right click on silabser.inf and click install.
 
-This will tell Arduino what board and how to connect it.
+The following will tell Arduino what board you have and how to connect it.
 
 Go to Tools > Board > esp32 and select DOIT ESP32 DEVKIT V1.
 Connect your ESP32 DEVKIT V1 with a USB micro cable to your computer.
